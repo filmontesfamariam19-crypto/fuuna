@@ -1,0 +1,33 @@
+name: sponsored_challenges_app
+description: Sponsored challenge marketplace with admin, sponsor and user roles
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  supabase_flutter: ^2.5.6
+  google_maps_flutter: ^2.6.1
+  geolocator: ^12.0.0
+  intl: ^0.19.0
+  fl_chart: ^0.68.0
+  image_picker: ^1.1.2
+  firebase_core: ^3.0.0
+  firebase_messaging: ^15.0.0
+  dotted_border: ^2.1.0
+  shimmer: ^3.0.0
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
